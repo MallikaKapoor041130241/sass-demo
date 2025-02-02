@@ -1,0 +1,39 @@
+/* Compiled from _variables.scss */
+:root {
+  --primary: #005c99;
+  --secondary: #450b0b;
+}
+
+/* Compiled from _mixins.scss */
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.spaced {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Compiled from _buttons.scss */
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Compiled from _spacing.scss */
+.spaced {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Bootstrap Styles (Automatically included when using Bootstrap SCSS) */
+@import "../node_modules/bootstrap/scss/bootstrap";
