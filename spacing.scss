@@ -1,9 +1,0 @@
-@mixin margin-padding($size) {
-    margin: $size;
-    padding: $size;
-  }
-  
-  .spaced {
-    @include margin-padding(10px);  // Apply 10px margin and padding
-  }
-  

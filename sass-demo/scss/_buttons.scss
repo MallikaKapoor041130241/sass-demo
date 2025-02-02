@@ -1,0 +1,5 @@
+@use "index" as *;
+
+.btn-primary {
+  @include button-style($primary);  // Use primary color mixin
+}
